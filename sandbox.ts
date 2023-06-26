@@ -1,9 +1,17 @@
-const character = 'mario';
+//string         
+let character = "kashish"; 
 
-console.log(character);
+//number
+let age = 18;    
 
-const inputs = document.querySelectorAll('input');
+//boolean
+let isSmart = true;
 
-inputs.forEach(input => {
-  console.log(input);
-});
+//any
+let myname;
+
+const circ = (diameter:number) => {
+    return diameter * Math.PI;
+}
+
+console.log(circ(8));
